@@ -1,3 +1,14 @@
+! 2023-11-30 https://www.polizeinews.ch
+www.polizeinews.ch##.spot--top.spot--blb.spot
+www.polizeinews.ch##.mob
+www.polizeinews.ch###adrotate_widgets-3
+www.polizeinews.ch###adrotate_widgets-2
+www.polizeinews.ch##.spot--bot.spot--blb.spot
+www.polizeinews.ch##.adrotate_widgets.widget
+
+! 2024-01-30 https://krajina.ba
+krajina.ba##.td-pb-span12.tdc-column.vc_column_container.wpb_column.tdi_155.vc_column > .wpb_wrapper
+
 # 20min.ch
 @@||sst.20min.ch^
 @@||20minuten-cdn.relevant-digital.com
