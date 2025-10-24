@@ -19,33 +19,9 @@ krajina.ba##.td-pb-span12.tdc-column.vc_column_container.wpb_column.tdi_155.vc_c
 @@||cnl.filecrypt.cc
 @@127.0.0.1
 
-! --- user sync iframes (frame) ---
-@@||rubiconproject.com^$frame,domain=20min.ch|www.20min.ch
-@@||onetag-sys.com^$frame,domain=20min.ch|www.20min.ch
-@@||indexww.com^$frame,domain=20min.ch|www.20min.ch
-@@||openx.net^$frame,domain=20min.ch|www.20min.ch
-@@||pubmatic.com^$frame,domain=20min.ch|www.20min.ch
-
-! --- measurement/consent and RUM ---
-@@||google.com/ccm/^$xhr,domain=20min.ch|www.20min.ch
-@@||browser-intake-datadoghq.eu^$xhr,domain=20min.ch|www.20min.ch
-
-! --- header bidding / ad-tech XHRs ---
-@@||pubmatic.com^$xhr,domain=20min.ch|www.20min.ch
-@@||360yield-basic.com^$xhr,domain=20min.ch|www.20min.ch
-@@||nexx360.io^$xhr,domain=20min.ch|www.20min.ch
-@@||adnxs-simple.com^$xhr,domain=20min.ch|www.20min.ch
-@@||criteo.com^$xhr,domain=20min.ch|www.20min.ch
-@@||gbads.net^$xhr,domain=20min.ch|www.20min.ch
-@@||smartadserver.com^$xhr,domain=20min.ch|www.20min.ch
-@@||casalemedia.com^$xhr,domain=20min.ch|www.20min.ch
-@@||adform.net^$xhr,domain=20min.ch|www.20min.ch
-@@||lijit.com^$xhr,domain=20min.ch|www.20min.ch
-@@||rubiconproject.com^$xhr,domain=20min.ch|www.20min.ch
-@@||onetag-sys.com^$xhr,domain=20min.ch|www.20min.ch
-@@||permutive.com^$xhr,domain=20min.ch|www.20min.ch
-
-! --- scripts/images seen in the log ---
-@@||4dex.io^$script,domain=20min.ch|www.20min.ch
-@@||permutive.app^$script,domain=20min.ch|www.20min.ch
-@@||ads.linkedin.com^$image,domain=20min.ch|www.20min.ch
+! --- 20min.ch video essentials ---
+@@||imasdk.googleapis.com^$script,domain=20min.ch|www.20min.ch
+20min.ch#@#+js(abort-on-property-read, _sp_._networkListenerData)
+20min.ch#@#+js(adjust-setTimeout, readyPromise, 5000, 0.001)
+www.20min.ch#@#+js(abort-on-property-read, _sp_._networkListenerData)
+www.20min.ch#@#+js(adjust-setTimeout, readyPromise, 5000, 0.001)
